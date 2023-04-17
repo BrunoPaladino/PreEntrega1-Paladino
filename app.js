@@ -4,7 +4,7 @@ let cantidad;
 let i;
 
 alert("Bienvenido al centro Pokemon, nos encargamos del cuidado de sus pokemons.")
-ingresoSalud(salud, tratamiento, cantidad, i);
+ingresoSalud(salud, tratamiento);
 
 function ingresoSalud(salud, tratamiento) {
     salud = Number(prompt("Ingrese los puntos de salud (PS) de su pokemon (valor entre 0 y 100):"));
